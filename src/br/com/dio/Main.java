@@ -147,7 +147,7 @@ public class Main {
 
 	private static void clearGame() {
 		if (isNull(board)){
-            System.out.println("O jogo ainda não foi iniciado iniciado");
+            System.out.println("O jogo ainda não foi iniciado");
             return;
         }
 		
@@ -165,7 +165,7 @@ public class Main {
 
 	private static void finishGame() {
 		if (isNull(board)){
-            System.out.println("O jogo ainda não foi iniciado iniciado");
+            System.out.println("O jogo ainda não foi iniciado");
             return;
         }
 		
