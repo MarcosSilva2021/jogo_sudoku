@@ -29,7 +29,7 @@ public class Main {
 				));
 		var option = -1;
 		while(true) {
-			System.out.println("Selecione uma das opções a seguir");
+			System.out.println("Selecione uma das seguintes opções :");
             System.out.println("1 - Iniciar um novo Jogo");
             System.out.println("2 - Colocar um novo número");
             System.out.println("3 - Remover um número");
@@ -50,7 +50,7 @@ public class Main {
             	case 6 -> clearGame();
             	case 7 -> finishGame();
             	case 8 -> System.exit(0);
-            	default -> System.out.println("Opção inválida, selecione uma das opções do menu");
+            	default -> System.out.println("Opção inválida, selecione apenas uma das opções do menu");
             }
 		}
 		
@@ -80,7 +80,7 @@ public class Main {
 
 	private static void inputNumber() {
 		 if (isNull(board)){
-	            System.out.println("O jogo ainda não foi iniciado iniciado");
+	            System.out.println("O jogo ainda não foi iniciado");
 	            return;
 	        }
 		
@@ -98,7 +98,7 @@ public class Main {
 
 	private static void removeNumber() {
 		 if (isNull(board)){
-	            System.out.println("O jogo ainda não foi iniciado iniciado");
+	            System.out.println("O jogo ainda não foi iniciado");
 	            return;
 	        }
 		
@@ -115,7 +115,7 @@ public class Main {
 
 	private static void showCurrentGame() {
 		if (isNull(board)){
-            System.out.println("O jogo ainda não foi iniciado iniciado");
+            System.out.println("O jogo ainda não foi iniciado");
             return;
         }
 		
