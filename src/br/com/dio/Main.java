@@ -127,7 +127,7 @@ public class Main {
 				args[argPos ++] = " " + (isNull(col.get(i).getActual()) ? " " : col.get(i).getActual());
 			}
 		}
-		System.out.println("Seu jogo se encontra da seguinte forma:");
+		System.out.println("Status do jogo:");
 		System.out.printf((BoardTemplate.BOARD_TEMPLATE) + "%n", args);
 	}
 
