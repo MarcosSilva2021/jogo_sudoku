@@ -133,7 +133,7 @@ public class Main {
 
 	private static void showGameStatus() {
 		if (isNull(board)){
-            System.out.println("O jogo ainda não foi iniciado iniciado");
+            System.out.println("O jogo ainda não foi iniciado");
             return;
         }
 		
