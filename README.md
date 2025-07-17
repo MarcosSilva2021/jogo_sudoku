@@ -1,27 +1,46 @@
-# SUDOKU-JAVA
+# **Sudoku em Java 21**
 
-Este projeto é uma implementação do jogo Sudoku utilizando Programação Orientada a Objetos (POO) em Java. Desenvolvido como parte do desafio da [Digital Innovation One (DIO)](https://www.dio.me/), o objetivo é proporcionar uma experiência interativa e educativa para os entusiastas de Sudoku e programadores Java.
+Este projeto é uma implementação do jogo Sudoku utilizando Programação Orientada a Objetos (POO) em **Java**.
 
-## 📌 Funcionalidades
+Com uma abordagem simples e prática, o projeto explora conceitos importantes de programação, como estrutura de dados, manipulação de objetos e interação com o usuário.
 
-- 🎨 **Interface Gráfica (GUI):** Utiliza a biblioteca Swing para oferecer uma interface amigável e responsiva.
-- ✅ **Verificador de Solução:** Valida se a solução inserida pelo jogador está correta.
+## 📌 **Funcionalidades**
 
-## 🛠 Tecnologias Utilizadas
+- **🎮 Jogo Interativo:** O jogador pode interagir com o jogo, colocando e removendo números nas células, além de visualizar o estado atual do tabuleiro.
+- **✅ Verificador de Solução:** O sistema valida a solução inserida, indicando se o jogo foi completado corretamente ou se contém erros.
+- **🔄 Reiniciar e Limpar Jogo:** O jogador pode reiniciar o jogo ou limpar os valores inseridos, caso necessário.
+- **🚀 Status do Jogo:** O jogo exibe informações sobre o progresso, como se está completo, incompleto ou não iniciado.
 
-- ☕ **Java:** Linguagem principal utilizada no desenvolvimento do jogo.
-- 🖥 **Swing:** Biblioteca gráfica para construção da interface do usuário.
+## 🛠 **Tecnologias Utilizadas**
 
-## 📂 Estrutura do Projeto
+- **☕ Java:** Linguagem de programação principal para o desenvolvimento do jogo.
+- **🖥 Swing:** Biblioteca gráfica utilizada para a criação da interface do usuário (GUI).
 
-O projeto segue uma estrutura organizada para facilitar a manutenção e escalabilidade:
+## 🗂 **Arquitetura do Projeto**
 
-SUDOKU-JAVA/ │── src/br/com/dio │ ├── model/ # Classes que representam os componentes centrais do Sudoku │ ├── view/ # Classes responsáveis pela interface gráfica e interação com o usuário │ ├── controller/ # Gerencia a lógica do jogo │── README.md # Documentação do projeto │── LICENSE # Licença MIT
+A estrutura do projeto foi organizada para garantir uma separação clara de responsabilidades e facilitar a manutenção e evolução do código:
 
-## 🤝 Contribuição
+### **Detalhamento das Pastas:**
 
-Contribuições são bem-vindas! Se você deseja melhorar o jogo, adicionar novas funcionalidades ou corrigir bugs, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+- **`model/`**: Contém as classes que representam a lógica do jogo, como `Board` (Tabuleiro), `Space` (Espaços do Sudoku) e `GameStatusEnum` (Status do jogo).
+- **`view/`**: Contém a interface gráfica utilizando o Swing para permitir que o jogador interaja com o jogo. (Ainda em desenvolvimento, caso seja necessário expandir a GUI).
+- **`controller/`**: Contém as classes responsáveis por gerenciar a lógica de interação do jogo, como a inserção de números e a verificação de erros no tabuleiro.
 
-## 📜 Licença
+## 🧑‍💻 **Como Executar o Projeto**
 
-Este projeto está licenciado sob a Licença MIT, permitindo uso, cópia, modificação e distribuição livre, desde que os devidos créditos sejam mantidos.
+Para rodar o projeto em sua máquina local, siga as instruções abaixo:
+
+### 1. **Pré-requisitos:**
+   - Certifique-se de ter o **Java 21** instalado. Você pode verificar isso executando:
+     ```bash
+     java -version
+     ```
+
+### 2. **Clonando o Repositório:**
+   Clone o repositório para a sua máquina local:
+   ```bash
+   git clone https://github.com/usuario/sudoku-java.git
+   cd sudoku-java
+
+### 3. **Executando o jogo:**
+ 
