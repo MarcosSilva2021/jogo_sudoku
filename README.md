@@ -43,4 +43,4 @@ Para rodar o projeto em sua máquina local, siga as instruções abaixo:
    cd sudoku-java
 
 ### 3. **Executando o jogo:**
- 
+ mvn exec:java
